@@ -28,4 +28,4 @@ const dev = {
     ]
 }
 
-console.log(`O usuário ${dev.name} tem ${dev.age} e usa a tecnologia ${dev.techs[0].name} com especialidade em ${dev.techs[0].speciality}`)
+console.log(`O usuário ${dev.name} tem ${dev.age} e usa a tecnologia ${dev.techs[0].name} com especialidade em ${dev.techs[0].speciality}`);

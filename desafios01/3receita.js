@@ -17,28 +17,28 @@ const users = [
   ]
 
 function checkBalance(income, expense) {
-    const sumIncome = sumNumbers(income)
-    const sumExpense = sumNumbers(expense)
+    const sumIncome = sumNumbers(income);
+    const sumExpense = sumNumbers(expense);
     
-    return sumIncome - sumExpense
+    return sumIncome - sumExpense;
 }
 
 function sumNumbers(numbers) {
-    let sum = 0
+    let sum = 0;
 
     for (let number of numbers) {
-        sum = sum + number
+        sum = sum + number;
     }
 
-    return sum
+    return sum;
 }
 
 for (let user of users) {
-    const balance = checkBalance(user.income, user.expense)
+    const balance = checkBalance(user.income, user.expense);
 
     if (balance > 0) {
-        console.log(`${user.name} possui saldo POSITIVO de ${balance.toFixed(2)}`)
+        console.log(`${user.name} possui saldo POSITIVO de ${balance.toFixed(2)}`);
     } else {
-        console.log(`${user.name} possui saldo NEGATIVO de ${balance.toFixed(2)}`)
+        console.log(`${user.name} possui saldo NEGATIVO de ${balance.toFixed(2)}`);
     }
 }

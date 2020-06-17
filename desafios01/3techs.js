@@ -11,16 +11,16 @@ for(let i = 0; i < users.length; i++) {
 
 function checkIfUserCss(user) {
     for (let tech of user.techs) {
-        if (tech == 'CSS') return true
+        if (tech == 'CSS') return true;
     }
 
-    return false
+    return false;
 }
 
 for (let i = 0; i < users.length; i++) {
-    const userWorkCss = checkIfUserCss(users[i])
+    const userWorkCss = checkIfUserCss(users[i]);
 
     if(userWorkCss) {
-        console.log(`O usuário ${users[i].name} trabalha com CSS`)
+        console.log(`O usuário ${users[i].name} trabalha com CSS`);
     }
 }

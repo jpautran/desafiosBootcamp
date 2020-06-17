@@ -1,9 +1,9 @@
 const name = 'Ivan';
-const weight = 70
-const height = 1.74
+const weight = 70;
+const height = 1.74;
 
 const imc = weight / (height * height);
-const imcFixed = imc.toFixed(2)
+const imcFixed = imc.toFixed(2);
 
 
 if(imc >= 30) {
